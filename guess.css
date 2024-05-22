@@ -111,6 +111,7 @@ input{
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     margin-top: 20px;
+    max-width: -webkit-fill-available;
 
 }
 
