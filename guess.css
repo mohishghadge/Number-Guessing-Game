@@ -1,0 +1,137 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    background-color: rgb(165, 81, 244);
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+main{
+    border:1px solid white;
+    margin: auto;
+    background-color: aliceblue;
+    max-width: 800px;
+    width: auto;
+    text-align: center;
+    margin-top: 100px;
+    height: auto;
+    box-shadow:0px 0px 20px;
+    padding-top: 70px;
+}
+
+.heading{
+    font-size: 28px;
+   
+ 
+}
+
+.image{
+  
+    height: 230px;
+    width: 230px;
+    margin:auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.level{
+     font: 800;
+     font-size: 23px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.btn button{
+    background: rgb(176, 200, 255);
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 20px;
+    justify-self: end;
+    font-size: 15px;
+    font-weight:600;
+    border: 1px solid rgb(239, 239, 239);
+    margin-right: auto;
+    box-shadow:  -2px 2px 16px black;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn button:hover{
+    background: rgb(74, 115, 178);
+    color: aliceblue;
+  
+}
+
+
+/* our game area */
+
+
+#gamearea{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#newGamebtn button{
+    margin: 2rem 0;
+}
+
+
+input{
+    border: 0.1rem solid lightgray ;
+    background:  transparent;
+    margin: 4rem 0 ;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+
+}
+
+
+.stats{
+    text-align: left;
+    
+   
+}
+
+.info{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom:2rem;
+     padding-left: 40px;
+     padding-right: 100px;
+  
+}
+
+.info span{
+    font-size: 2rem;
+    color: red;
+}
